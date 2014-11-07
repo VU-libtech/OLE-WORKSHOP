@@ -19,7 +19,7 @@ lower_case_table_names=1
 
 #####Restart mysql
 
-#####Checkout the workshop file data
+#####Checkout the workshop files
 ```
 mkdir ~/OLE
 cd ~/OLE
