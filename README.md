@@ -3,13 +3,24 @@ OLE-WORKSHOP
 
 #Prerequisites
 
+#####Linux
+######* where it is theoretically possible to deploy on Windows, this remains untested. 
+
 #####Install git
+
+http://git-scm.com/downloads
 
 #####Install Java 7
 
+http://openjdk.java.net/install/
+
 #####Install Tomcat 7
 
+http://tomcat.apache.org/download-70.cgi
+
 #####Install Mysql
+
+http://dev.mysql.com/downloads/installer/
 
 #####Edit mysql config to allow lower case table names. Add the following to [mysqld] in my.cnf
 ```
@@ -43,7 +54,15 @@ export OLE_DEVELOPMENT_WORKSPACE_ROOT=~/OLE/OLE-INST
 
 #####Install maven
 
-#####Install ant
+http://maven.apache.org/download.cgi
+
+#####Install Ant
+
+http://ant.apache.org/bindownload.cgi
+
+#####Install Groovy
+
+http://groovy.codehaus.org/Download
 
 #####Setup the Liquibase build
 ```
