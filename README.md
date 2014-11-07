@@ -52,14 +52,18 @@ mysql> create user 'LIQUIBASEBLANK'@'localhost' identified by 'LIQUIBASEBLANK';
 mysql> grant all privileges on LIQUIBASEBLANK.* to 'LIQUIBASEBLANK'@'localhost' identified by 'LIQUIBASEBLANK';
 ```
     
-#####edit ~/OLE/OLE-WORKSHOP/config/common-config.xml and set your db user and password
+#####Edit ~/OLE/OLE-WORKSHOP/config/common-config.xml and set your db user and password
 ```
-<param name="mysql.dba.username">root</param>
-<param name="mysql.dba.password">PW</param>
+nano ~/OLE/OLE-WORKSHOP/config/common-config.xml
+EDIT LINE: <param name="mysql.dba.username">root</param>
+EDIT LINE: <param name="mysql.dba.password">PW</param>
 ```
 
 #####edit ~/OLE-WORKSHOP/build.sh and set your db user and password
-    mvn initialize -Pdb -Djdbc.dba.username=root -Djdbc.dba.password=PW
+```
+nano ~/OLE-WORKSHOP/build.sh
+EDIT LINE: mvn initialize -Pdb -Djdbc.dba.username=root -Djdbc.dba.password=PW
+```
 
 #####Set file to be executable
     chmod +x ~/OLE-WORKSHOP/build.sh
