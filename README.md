@@ -117,7 +117,7 @@ wget https://github.com/VU-libtech/OLE-WORKSHOP/releases/download/0.1.0/oledocst
 #####Index Bibs, Holdings, Items in Solr (this will take a couple minutes, check the log for completion)
 [http://localhost:8080/oledocstore/admin.jsp](http://localhost:8080/oledocstore/admin.jsp)
 
-#Supplamentory Meterials
+#Supplementary Meterials
 
 #####Kuali OLE Installation Guide
 https://wiki.kuali.org/display/OLE/KOLE+1.5.x+Installation+Guide
