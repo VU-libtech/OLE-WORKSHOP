@@ -61,7 +61,7 @@ EDIT LINE: <param name="mysql.dba.password">PW</param>
 
 #####edit ~/OLE-WORKSHOP/build.sh and set your db user and password
 ```
-nano ~/OLE-WORKSHOP/build.sh
+nano ~/OLE/OLE-WORKSHOP/build.sh
 EDIT LINE: mvn initialize -Pdb -Djdbc.dba.username=root -Djdbc.dba.password=PW
 ```
 
