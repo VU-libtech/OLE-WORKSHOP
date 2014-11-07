@@ -46,23 +46,19 @@ export OLE_DEVELOPMENT_WORKSPACE_ROOT=~/OLE/OLE-INST
 #####Install ant
 
 #####Setup the Liquibase build
-
 ```
 mysql> create database LIQUIBASEBLANK;
 mysql> create user 'LIQUIBASEBLANK'@'localhost' identified by 'LIQUIBASEBLANK';
 mysql> grant all privileges on LIQUIBASEBLANK.* to 'LIQUIBASEBLANK'@'localhost' identified by 'LIQUIBASEBLANK';
 ```
     
-#####edit ~/OLE/OLE-WORKSHOP/config/common-config.xml
+#####edit ~/OLE/OLE-WORKSHOP/config/common-config.xml and set your db user and password
 ```
 <param name="mysql.dba.username">root</param>
 <param name="mysql.dba.password">PW</param>
 ```
 
-#####Copy mysql JDBC driver to tomcat
-    cp ~/OLE/OLE-WORKSHOP/lib/mysql-connector-java-5.1.13.jar $CATALINA_HOME/lib
-
-#####edit ~/OLE-WORKSHOP/build.sh at set your db user and password
+#####edit ~/OLE-WORKSHOP/build.sh and set your db user and password
     mvn initialize -Pdb -Djdbc.dba.username=root -Djdbc.dba.password=PW
 
 #####Set file to be executable
@@ -82,6 +78,9 @@ wget https://github.com/VU-libtech/OLE-WORKSHOP/releases/download/0.1.0/olefs.wa
 wget https://github.com/VU-libtech/OLE-WORKSHOP/releases/download/0.1.0/oledocstore.war -P ${CATALINA_HOME}/webapps
 ```
 
+#####Copy mysql JDBC driver to tomcat
+    cp ~/OLE/OLE-WORKSHOP/lib/mysql-connector-java-5.1.13.jar $CATALINA_HOME/lib
+    
 #####Start tomcat
     cd $CATALINA_HOME/bin
     ./startup.sh
