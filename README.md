@@ -2,7 +2,7 @@ OLE-WORKSHOP
 ============
 
 #Prerequisites
-###Please use your package manager of choice when installing dependencies (YUM, apt-get, etc). The links below are to be used as a last resort
+####Please use your package manager of choice when installing dependencies (YUM, apt-get, etc). The links below are to be used as a last resort
 #####Linux
 ######* where it is theoretically possible to deploy on Windows, this remains untested. 
 
@@ -51,7 +51,7 @@ export OLE_DEVELOPMENT_WORKSPACE_ROOT=~/OLE/OLE-INST
     source ~/OLE/OLE-WORKSHOP/env.sh
     
 #Option 1: Building from Source
-###Please use your package manager of choice when installing dependencies (YUM, apt-get, etc). The links below are to be used as a last resort
+####Please use your package manager of choice when installing dependencies (YUM, apt-get, etc). The links below are to be used as a last resort
 #####Install maven
 
 http://maven.apache.org/download.cgi
@@ -114,7 +114,7 @@ wget https://github.com/VU-libtech/OLE-WORKSHOP/releases/download/0.1.0/oledocst
 #####View in browser
 [http://localhost:8080/olefs/portal.do]
 
-######Index Bibs, Holdings, Items in Solr (this will take a couple minutes, check the log for completion)
+#####Index Bibs, Holdings, Items in Solr (this will take a couple minutes, check the log for completion)
 [http://localhost:8080/oledocstore/admin.jsp]
 
 #Supplamentory Meterials
