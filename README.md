@@ -3,7 +3,7 @@ OLE-WORKSHOP
 install java 7
 
 install tomcat 7
-cp app/mysql-connector-java-5.1.13.jar $CATALINA_HOME/lib
+cp lib/mysql-connector-java-5.1.13.jar $CATALINA_HOME/lib
 
 install maven
 
