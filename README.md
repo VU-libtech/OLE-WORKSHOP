@@ -59,14 +59,14 @@ EDIT LINE: <param name="mysql.dba.username">root</param>
 EDIT LINE: <param name="mysql.dba.password">PW</param>
 ```
 
-#####edit ~/OLE-WORKSHOP/build.sh and set your db user and password
+#####edit ~/OLE/OLE-WORKSHOP/build.sh and set your db user and password
 ```
 nano ~/OLE/OLE-WORKSHOP/build.sh
 EDIT LINE: mvn initialize -Pdb -Djdbc.dba.username=root -Djdbc.dba.password=PW
 ```
 
 #####Set file to be executable
-    chmod +x ~/OLE-WORKSHOP/build.sh
+    chmod +x ~/OLE/OLE-WORKSHOP/build.sh
 
 #####build OLE
 ```
