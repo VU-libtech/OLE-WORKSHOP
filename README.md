@@ -2,7 +2,7 @@ OLE-WORKSHOP
 ============
 
 #Prerequisites
-
+###Please use your package manager of choice when installing dependencies (YUM, apt-get, etc). The links below are to be used as a last resort
 #####Linux
 ######* where it is theoretically possible to deploy on Windows, this remains untested. 
 
@@ -51,7 +51,7 @@ export OLE_DEVELOPMENT_WORKSPACE_ROOT=~/OLE/OLE-INST
     source ~/OLE/OLE-WORKSHOP/env.sh
     
 #Option 1: Building from Source
-
+###Please use your package manager of choice when installing dependencies (YUM, apt-get, etc). The links below are to be used as a last resort
 #####Install maven
 
 http://maven.apache.org/download.cgi
