@@ -94,3 +94,11 @@ http://localhost:8080/olefs/portal.do
 ######Index Bibs, Holdings, Items in Solr (this will take a couple minutes, check the log for completion)
 http://localhost:8080/oledocstore/admin.jsp
 
+#Supplamentory Meterials
+
+#####Kuali OLE Installation Guide
+https://wiki.kuali.org/display/OLE/KOLE+1.5.x+Installation+Guide
+
+#####Dive Into Kuali OLE, by Jeff Fleming @ Duke University
+http://ole-build-01.lib.duke.edu/dive-into-kuali-ole/
+
