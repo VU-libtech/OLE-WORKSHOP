@@ -37,6 +37,7 @@ cd ~/OLE
 git clone https://github.com/VU-libtech/OLE-WORKSHOP.git
 git clone https://github.com/VU-libtech/OLE-INST.git
 
+
 #edit ~/OLE-WORKSHOP/config/common-config.xml
 <param name="mysql.dba.username">root</param>
 <param name="mysql.dba.password">PW</param>
@@ -51,6 +52,11 @@ chmod +x ~/OLE-WORKSHOP/build.sh
 cd ~/OLE/OLE-WORKSHOP
 ./build.sh
 
+#deployment
+#If you are skipping the build section, you'll need to grab the OLE apps from github
+wget https://github.com/VU-libtech/OLE-WORKSHOP/releases/download/0.1.0/olefs.war -P ${CATALINA_HOME}/webapps
+wget https://github.com/VU-libtech/OLE-WORKSHOP/releases/download/0.1.0/oledocstore.war -P ${CATALINA_HOME}/webapps
+
 #start tomcat
 cd $CATALINA_HOME/bin
 ./startup.sh
@@ -63,4 +69,7 @@ http://localhost:8080/olefs/portal.do
 
 #Index Bibs, Holdings, Items in Solr (this will take a couple minutes, check the log for completion)
 http://localhost:8080/oledocstore/admin.jsp
+
+
+#Deploy
 
