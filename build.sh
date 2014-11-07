@@ -64,5 +64,5 @@ mvn initialize -Pdb -Djdbc.dba.username=root -Djdbc.dba.password=PW
 cd ${OLE_DEVELOPMENT_WORKSPACE_ROOT}
 
 printf "copy webapps\n"
-cp ./ole-app/olefs/target/olefs.war ${CATALINA_HOME}/tomcat/webapps/
+cp ./ole-app/olefs/target/olefs.war ${CATALINA_HOME}/webapps/
 cp ./ole-docstore/ole-docstore-webapp/target/oledocstore.war ${CATALINA_HOME}/webapps/
