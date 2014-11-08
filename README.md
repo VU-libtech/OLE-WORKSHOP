@@ -103,7 +103,16 @@ wget https://github.com/VU-libtech/OLE-WORKSHOP/releases/download/0.1.0/oledocst
 
 #####Copy mysql JDBC driver to tomcat
     cp ~/OLE/OLE-WORKSHOP/lib/mysql-connector-java-5.1.13.jar $CATALINA_HOME/lib
-    
+
+#####These runonce.properties files are required to "reset" the database when loading tomcat. These will not be needed when in production.
+```
+mkdir -p ~/kuali/main/local/olefs-webapp
+cp ~/OLE/OLE-WORKSHOP/config/runonce.properties ~/kuali/main/local/olefs-webapp
+
+mkdir -p ~/kuali/main/local/ole-docstore-webapp
+cp ~/OLE/OLE-WORKSHOP/config/runonce.properties ~/kuali/main/local/ole-docstore-webapp
+```
+
 #####Start tomcat
     cd $CATALINA_HOME/bin
     ./startup.sh
