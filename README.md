@@ -112,6 +112,10 @@ cp ~/OLE/OLE-WORKSHOP/config/runonce.properties ~/kuali/main/local/olefs-webapp
 mkdir -p ~/kuali/main/local/ole-docstore-webapp
 cp ~/OLE/OLE-WORKSHOP/config/runonce.properties ~/kuali/main/local/ole-docstore-webapp
 ```
+#####Load Main Config File
+```
+cp ~/OLE/OLE-WORKSHOP/config/common-config.xml ~/kuali/main/local
+```
 
 #####Start tomcat
     cd $CATALINA_HOME/bin
