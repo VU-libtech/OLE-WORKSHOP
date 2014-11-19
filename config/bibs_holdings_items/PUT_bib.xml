@@ -1,0 +1,101 @@
+<bibDoc>
+<id>wbm-1111111</id>
+<localId>wbm-1111111</localId>
+<category>work</category>
+<type>bibliographic</type>
+<format>marc</format>
+<active>true</active>
+<createdBy>string</createdBy>
+<createdOn>string</createdOn>
+<updatedBy>string</updatedBy>
+<updatedOn>string</updatedOn>
+<lastUpdated>string</lastUpdated>
+<status>string</status>
+<statusUpdatedBy>string</statusUpdatedBy>
+<statusUpdatedOn>string</statusUpdatedOn>
+<fastAdd>false</fastAdd>
+<public>false</public>
+<staffOnly>true</staffOnly>
+<content>
+&lt;collection xmlns="http://www.loc.gov/MARC21/slim"&gt;
+  &lt;record&gt;
+    &lt;leader&gt;01142cam  2200301 a 4500&lt;/leader&gt;
+    &lt;controlfield tag="001"&gt;1111111&lt;/controlfield&gt;
+    &lt;controlfield tag="003"&gt;DLC&lt;/controlfield&gt;
+    &lt;controlfield tag="005"&gt;19930521155141.9&lt;/controlfield&gt;
+    &lt;controlfield tag="008"&gt;920219s1993    caua   j      000 0 eng  &lt;/controlfield&gt;
+    &lt;datafield tag="010" ind1=" " ind2=" "&gt;
+      &lt;subfield code="a"&gt;1111111&lt;/subfield&gt;
+    &lt;/datafield&gt;
+    &lt;datafield tag="020" ind1=" " ind2=" "&gt;
+      &lt;subfield code="a"&gt;0152038655 :&lt;/subfield&gt;
+      &lt;subfield code="c"&gt;$15.95&lt;/subfield&gt;
+    &lt;/datafield&gt;
+    &lt;datafield tag="040" ind1=" " ind2=" "&gt;
+      &lt;subfield code="a"&gt;DLC&lt;/subfield&gt;
+      &lt;subfield code="c"&gt;DLC&lt;/subfield&gt;
+      &lt;subfield code="d"&gt;DLC&lt;/subfield&gt;
+    &lt;/datafield&gt;
+    &lt;datafield tag="042" ind1=" " ind2=" "&gt;
+      &lt;subfield code="a"&gt;lcac&lt;/subfield&gt;
+    &lt;/datafield&gt;
+    &lt;datafield tag="050" ind1="0" ind2="0"&gt;
+      &lt;subfield code="a"&gt;PS3537.A618&lt;/subfield&gt;
+      &lt;subfield code="b"&gt;A88 1993&lt;/subfield&gt;
+    &lt;/datafield&gt;
+    &lt;datafield tag="082" ind1="0" ind2="0"&gt;
+      &lt;subfield code="a"&gt;811/.52&lt;/subfield&gt;
+      &lt;subfield code="2"&gt;20&lt;/subfield&gt;
+    &lt;/datafield&gt;
+    &lt;datafield tag="100" ind1="1" ind2=" "&gt;
+      &lt;subfield code="a"&gt;Sandburg, Carl,&lt;/subfield&gt;
+      &lt;subfield code="d"&gt;1878-1967.&lt;/subfield&gt;
+    &lt;/datafield&gt;
+    &lt;datafield tag="245" ind1="1" ind2="0"&gt;
+      &lt;subfield code="a"&gt;Arithmetic /&lt;/subfield&gt;
+      &lt;subfield code="c"&gt;Carl Sandburg ; illustrated as an anamorphic adventure by Ted Rand.&lt;/subfield&gt;
+    &lt;/datafield&gt;
+    &lt;datafield tag="250" ind1=" " ind2=" "&gt;
+      &lt;subfield code="a"&gt;1st ed.&lt;/subfield&gt;
+    &lt;/datafield&gt;
+    &lt;datafield tag="260" ind1=" " ind2=" "&gt;
+      &lt;subfield code="a"&gt;San Diego :&lt;/subfield&gt;
+      &lt;subfield code="b"&gt;Harcourt Brace Jovanovich,&lt;/subfield&gt;
+      &lt;subfield code="c"&gt;c1993.&lt;/subfield&gt;
+    &lt;/datafield&gt;
+    &lt;datafield tag="300" ind1=" " ind2=" "&gt;
+      &lt;subfield code="a"&gt;1 v. (unpaged) :&lt;/subfield&gt;
+      &lt;subfield code="b"&gt;ill. (some col.) ;&lt;/subfield&gt;
+      &lt;subfield code="c"&gt;26 cm.&lt;/subfield&gt;
+    &lt;/datafield&gt;
+    &lt;datafield tag="500" ind1=" " ind2=" "&gt;
+      &lt;subfield code="a"&gt;One Mylar sheet included in pocket.&lt;/subfield&gt;
+    &lt;/datafield&gt;
+    &lt;datafield tag="520" ind1=" " ind2=" "&gt;
+      &lt;subfield code="a"&gt;A poem about numbers and their characteristics. Features anamorphic, or distorted, drawings which can be restored to normal by viewing from a particular angle or by viewing the image's reflection in the provided Mylar cone.&lt;/subfield&gt;
+    &lt;/datafield&gt;
+    &lt;datafield tag="650" ind1=" " ind2="0"&gt;
+      &lt;subfield code="a"&gt;Arithmetic&lt;/subfield&gt;
+      &lt;subfield code="x"&gt;Juvenile poetry.&lt;/subfield&gt;
+    &lt;/datafield&gt;
+    &lt;datafield tag="650" ind1=" " ind2="0"&gt;
+      &lt;subfield code="a"&gt;Children's poetry, American.&lt;/subfield&gt;
+    &lt;/datafield&gt;
+    &lt;datafield tag="650" ind1=" " ind2="1"&gt;
+      &lt;subfield code="a"&gt;Arithmetic&lt;/subfield&gt;
+      &lt;subfield code="x"&gt;Poetry.&lt;/subfield&gt;
+    &lt;/datafield&gt;
+    &lt;datafield tag="650" ind1=" " ind2="1"&gt;
+      &lt;subfield code="a"&gt;American poetry.&lt;/subfield&gt;
+    &lt;/datafield&gt;
+    &lt;datafield tag="650" ind1=" " ind2="1"&gt;
+      &lt;subfield code="a"&gt;Visual perception.&lt;/subfield&gt;
+    &lt;/datafield&gt;
+    &lt;datafield tag="700" ind1="1" ind2=" "&gt;
+      &lt;subfield code="a"&gt;Rand, Ted,&lt;/subfield&gt;
+      &lt;subfield code="e"&gt;ill.&lt;/subfield&gt;
+    &lt;/datafield&gt;
+  &lt;/record&gt;
+&lt;/collection&gt;
+</content>
+</bibDoc>

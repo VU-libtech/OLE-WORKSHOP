@@ -1,0 +1,83 @@
+<holdingsDoc>
+    <id>who-10000002</id>
+    <localId>who-10000002</localId>
+    <category>work</category>
+    <type>holdings</type>
+    <format>oleml</format>
+    <active>true</active>
+    <createdBy>ole-quickstart</createdBy>
+    <createdOn>2014-08-09 00:23:14</createdOn>
+    <updatedBy>ole-quickstart</updatedBy>
+    <updatedOn>2014-08-09 00:23:14</updatedOn>
+    <lastUpdated></lastUpdated>
+    <status></status>
+    <statusUpdatedBy></statusUpdatedBy>
+    <statusUpdatedOn></statusUpdatedOn>
+    <fastAdd>false</fastAdd>
+    <public>false</public>
+    <staffOnly>false</staffOnly>
+    <content>
+&lt;oleHoldings primary="string"&gt;
+    &lt;holdingsType&gt;print&lt;/holdingsType&gt;
+    &lt;holdingsIdentifier&gt;who-10000002&lt;/holdingsIdentifier&gt;
+    &lt;extentOfOwnership&gt;
+        &lt;textualHoldings&gt;1935:no.4-9,11&lt;/textualHoldings&gt;
+        &lt;note type="string"&gt;public&lt;/note&gt;
+        &lt;type&gt;Basic Bibliographic Unit&lt;/type&gt;
+    &lt;/extentOfOwnership&gt;
+    &lt;receiptStatus&gt;6&lt;/receiptStatus&gt;
+    &lt;uri resolvable="string"&gt;&lt;/uri&gt;
+    &lt;note type="string"&gt;public&lt;/note&gt;
+    &lt;location status="string" primary="string"&gt;
+        &lt;locationLevel&gt;
+            &lt;name&gt;OLE&lt;/name&gt;
+            &lt;level&gt;Institution&lt;/level&gt;
+            &lt;code&gt;OLE&lt;/code&gt;
+            &lt;locationLevel&gt;
+                &lt;name&gt;OLE-LIBRARY&lt;/name&gt;
+                &lt;level&gt;Library&lt;/level&gt;
+                &lt;code&gt;OLE-LIBRARY&lt;/code&gt;
+                &lt;locationLevel&gt;
+                    &lt;name&gt;MAIN-STACKS&lt;/name&gt;
+                    &lt;level&gt;Shelving Location&lt;/level&gt;
+                    &lt;code&gt;MAIN-STACKS&lt;/code&gt;
+                    &lt;locationLevel/&gt;
+                &lt;/locationLevel&gt;
+            &lt;/locationLevel&gt;
+        &lt;/locationLevel&gt;
+    &lt;/location&gt;
+    &lt;extension displayLabel="string"&gt;
+        &lt;AnyElement/&gt;
+    &lt;/extension&gt;
+    &lt;callNumber&gt;
+        &lt;type&gt;string&lt;/type&gt;
+        &lt;prefix&gt;microfm&lt;/prefix&gt;
+        &lt;number&gt;PG5393.P65D84&lt;/number&gt;
+        &lt;classificationPart&gt;string&lt;/classificationPart&gt;
+        &lt;itemPart&gt;&lt;/itemPart&gt;
+        &lt;shelvingScheme&gt;
+            &lt;codeValue&gt;LCC&lt;/codeValue&gt;
+            &lt;fullValue&gt;Library of Congress classification&lt;/fullValue&gt;
+            &lt;typeOrSource&gt;
+                &lt;pointer&gt;&lt;/pointer&gt;
+                &lt;text&gt;&lt;/text&gt;
+            &lt;/typeOrSource&gt;
+        &lt;/shelvingScheme&gt;
+        &lt;shelvingOrder&gt;
+            &lt;codeValue&gt;PG 5393.000000 P0.650000 D0.840000&lt;/codeValue&gt;
+            &lt;fullValue&gt;PG 5393.000000 P0.650000 D0.840000&lt;/fullValue&gt;
+            &lt;typeOrSource&gt;
+                &lt;pointer&gt;&lt;/pointer&gt;
+                &lt;text&gt;&lt;/text&gt;
+            &lt;/typeOrSource&gt;
+        &lt;/shelvingOrder&gt;
+    &lt;/callNumber&gt;
+    &lt;copyNumber&gt;c.1&lt;/copyNumber&gt;
+    &lt;staffOnlyFlag&gt;true&lt;/staffOnlyFlag&gt;
+&lt;/oleHoldings&gt;
+    </content>
+            <bibDoc>            
+            <id>wbm-1111111</id>            
+        </bibDoc>
+    <holdingsType>print</holdingsType>
+</holdingsDoc>
