@@ -130,6 +130,12 @@ cp ~/OLE/OLE-WORKSHOP/config/common-config.xml ~/kuali/main/local
 #####Index Bibs, Holdings, Items in Solr (this will take a couple minutes, check the log for completion)
 [http://localhost:8080/oledocstore/admin.jsp](http://localhost:8080/oledocstore/admin.jsp)
 
+#####Initialize some basic circulation data via the various API's
+```
+chmod +x init_circ.sh
+./init_circ.sh
+```
+
 #Supplementary Meterials
 
 #####Kuali OLE Installation Guide
