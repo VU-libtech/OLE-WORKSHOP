@@ -12,11 +12,11 @@ printf "delete old build info from ~/kuali/main/local\n"
 rm -rf ~/kuali/main/local/*
 
 # These runonce.properties files are required if you want to "reset" the database when loading tomcat
-mkdir -p ~/kuali/main/local/olefs-webapp
-cp ~/OLE/OLE-WORKSHOP/config/runonce.properties ~/kuali/main/local/olefs-webapp
+#mkdir -p ~/kuali/main/local/olefs-webapp
+#cp ~/OLE/OLE-WORKSHOP/config/runonce.properties ~/kuali/main/local/olefs-webapp
 
-mkdir -p ~/kuali/main/local/ole-docstore-webapp
-cp ~/OLE/OLE-WORKSHOP/config/runonce.properties ~/kuali/main/local/ole-docstore-webapp
+#mkdir -p ~/kuali/main/local/ole-docstore-webapp
+#cp ~/OLE/OLE-WORKSHOP/config/runonce.properties ~/kuali/main/local/ole-docstore-webapp
 
 printf "common-config\n"
 cp ~/OLE/OLE-WORKSHOP/config/common-config.xml ~/kuali/main/local
@@ -57,11 +57,13 @@ printf "__________________\n"
 cd ${OLE_DEVELOPMENT_WORKSPACE_ROOT}/ole-app/olefs
 mvn clean install -DskipTests=true
 
-printf "_____________________\n"
+printf "Rebuild Database with generated INST Data\n"
 cd ${OLE_DEVELOPMENT_WORKSPACE_ROOT}/ole-app/olefs
 mvn initialize -Pdb -Djdbc.dba.username=root -Djdbc.dba.password=PW
 
+printf "create olequickstart admin user"
 cd ${OLE_DEVELOPMENT_WORKSPACE_ROOT}
+mysql -u"root" -p"PW" -A ole < ~/OLE/OLE-WORKSHOP/config/olequickstart_admin.sql
 
 printf "copy webapps\n"
 cp ./ole-app/olefs/target/olefs.war ${CATALINA_HOME}/webapps/
